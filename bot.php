@@ -13,7 +13,7 @@ if (file_exists(__DIR__ . '/language/default.json')) {
     $LANG = json_decode(file_get_contents("./language/default.json"), true);
 } else {
     $LANG = json_decode('{
-        "START": "*Merhaba! Bu botu sahibime ulaşmak için kullanabilirsiniz. Mesaj/ses/sticker/gif/dosya/fotoğraf atabilirsiniz. Admin\'im bunu en yakın zamanda görüp cevaplıyacaktır.*",
+        "START": "*Merhaba! Bu botu* @upp4r\'a *ulaşmak için kullanabilirsiniz. Mesaj/ses/sticker/gif/dosya/fotoğraf atabilirsiniz. Ömer bunu en yakın zamanda görüp cevaplıyacaktır.*",
         "ERROR_REPLY": "*Lütfen bir mesaja yanıt ver.*",
         "ERROR_NOTFOUND": "*Mesaj veritabanında bulunamadı. Yanıt gönderemezsiniz.*",
         "SENDER": "*Gönderen kişi:*"
